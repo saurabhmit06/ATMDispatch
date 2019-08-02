@@ -1,0 +1,54 @@
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  background-color: gray;
+}
+.container {
+  margin: 10px 40px;
+  display: flex;
+  flex-direction: row;
+  background-color: skyblue;
+}
+.item {
+  align-self: stretch;
+  flex-grow: 4;
+  padding: 10px 20px;
+}
+.box {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  flex-grow: 1;
+  margin: 10px;
+
+  height: 300px;
+}
+
+button {
+  margin: 20px;
+  padding: 10px;
+  background-color: skyblue;
+  border: none;
+  font-size: 10px;
+  color: white;
+}
+button:hover {
+  background-color: blue;
+}
+.grid {
+  display: grid;
+  grid-template-columns: auto auto;
+  margin: 30px !important;
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+}
+.cell {
+  text-align: left;
+}
+
+.cell2 {
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
